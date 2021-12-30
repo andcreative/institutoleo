@@ -1,0 +1,90 @@
+/* intro */
+
+.introducao-participe {
+  width: 100%;
+  height: 420px;
+  background: url("../img/participe/bg-participe.png") no-repeat center;
+  background-size: cover;
+  margin-top: 82.4px;
+  text-align: center;
+  padding-top: 540px;
+}
+
+.faixa-azul-intro-outros {
+  width: 100%;
+  background: #12203ad9;
+  height: 108px;
+  margin-top: -108px;
+}
+
+.faixa-azul-intro-outros h1 {
+  padding-top: 30px;
+}
+
+/* dados contribuição */
+
+.dados-contribuicao {
+  width: 100%;
+  display: flex;
+}
+
+.quadro-contribuicao {
+  width: 300px;
+  height: 320px;
+  background-color: #12203a;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.quadro-contribuicao h3 {
+  padding: 30px 30px 59px 30px;
+  color: #fff;
+  font-family: Poppins, Rotobo, Arial;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.quadro-contribuicao p {
+  color: #fff;
+  font-family: Poppins, Rotobo, Arial;
+  font-size: 17px;
+  line-height: 28px;
+}
+
+.quadro-contribuicao img {
+  display: inline-block;
+  margin-top: -30px;
+}
+
+.doe-tempo {
+  width: 940px;
+  display: inline-block;
+  text-align: center;
+  background-color: #12203a;
+  padding: 30px 30px 40px 30px;
+  margin-bottom: 30px;
+}
+
+.doe-tempo h3 {
+  color: #fff;
+  font-family: Poppins, Rotobo, Arial;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 30px;
+  padding-bottom: 30px;
+}
+
+.doe-tempo img {
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+
+.doe-tempo p {
+  color: #fff;
+  font-family: Rotobo, Arial;
+  text-align: center;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 0 60px 30px 60px;
+}

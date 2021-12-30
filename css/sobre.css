@@ -1,0 +1,155 @@
+/* intro */
+
+.header-menu-redes-sobre {
+  align-items: center;
+  float: right;
+}
+
+.header-menu-redes-sobre ul li {
+  display: inline-flex;
+  padding: 7.5px;
+  margin-top: 20px;
+}
+
+.introducao-sobre {
+  width: 100%;
+  height: 420px;
+  background: url("../img/sobre/foto-sobre.png") no-repeat center;
+  background-size: cover;
+  margin-top: 82.4px;
+  text-align: center;
+  padding-top: 540px;
+}
+
+.faixa-azul-intro-outros {
+  width: 100%;
+  background: #12203ad9;
+  height: 108px;
+  margin-top: -108px;
+}
+
+.faixa-azul-intro-outros h1 {
+  padding-top: 30px;
+}
+
+.btn-inicio {
+  display: none;
+}
+
+/*quem somos nós*/
+
+.quem-somos h3 {
+  text-align: left;
+  font-family: Poppins, Rotobo, Arial;
+  color: #12203a;
+  font-weight: bold;
+  font-size: 24px;
+  text-transform: uppercase;
+  padding-bottom: 30px;
+}
+
+.quem-somos p {
+  line-height: 25px;
+  padding-bottom: 30px;
+}
+
+/*equipe*/
+
+.equipe h3 {
+  margin-top: 5px;
+}
+
+.equipe p {
+  margin: 6px 0 30px 0;
+  font-style: italic;
+
+}
+
+.fotos-diretoria {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.fotos-diretoria li {
+  list-style: none;
+}
+
+.foto-equipe {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+
+.foto-equipe li {
+  list-style: none;
+}
+
+.fotos-equipe {
+  padding: 5px;
+}
+
+/*documentação*/
+
+.bg-documentacao {
+  background: #12203a;
+}
+
+.documentacao h3 {
+  color: #fff;
+  font-weight: bold;
+  margin-bottom: 14px;
+  text-align: center;
+}
+
+.prestacao-inst {
+  margin-top: 20px;
+}
+
+.prestacao-inst li {
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+}
+
+.prestacao-inst li a {
+  align-items: center;
+}
+
+.balanco-proj {
+  margin-top: 40px;
+}
+
+
+/*arrumar!!!!!!!*/
+.prestacao-proj {
+  width: 325px;
+  border: 1px solid #707070;
+  padding: 20px;
+  margin-bottom: 30px;
+  align-items: center;
+}
+
+.prestacao-proj-lista ul li {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+/*arrumar ^^^ */
+
+.prestacao-inst {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 30px;
+}

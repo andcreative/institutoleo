@@ -1,0 +1,34 @@
+/* intro */
+
+.introducao-noticias {
+  width: 100%;
+  height: 420px;
+  background: url("../img/blog/bg-blog.png") no-repeat center;
+  background-size: cover;
+  margin-top: 82.4px;
+  text-align: center;
+  padding-top: 540px;
+}
+
+.faixa-azul-intro-outros {
+  width: 100%;
+  background: #12203ad9;
+  height: 108px;
+  margin-top: -108px;
+}
+
+.faixa-azul-intro-outros h1 {
+  padding-top: 30px;
+}
+
+/* inicial */
+.noticias-inicial p {
+  width: 100%;
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+.noticias-inicial h2 {
+  color: #12203a;
+  padding-bottom: 10px;
+}

@@ -1,0 +1,588 @@
+/* Tablet */
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+
+	.header {
+		position: absolute;
+	}
+
+	.menu {
+		margin: 10px auto;
+		padding-right: 0px;
+		text-align: center;
+	}
+
+	.menu ul li {
+		margin: 10px 5px 5px 5px;
+
+	}
+
+	.header-menu-redes {
+		display: none;
+	}
+
+	.header-menu-redes-sobre {
+		display: none;
+	}
+
+	.introducao {
+		width: 100%;
+		height: auto;
+		background-size: cover;
+		margin-top: 0px;
+		text-align: center;
+		padding-top: 540px;
+	}
+
+	.valores {
+		margin-top: -20px;
+	}
+
+	.valores-lista li {
+		width: 235px;
+		margin-bottom: 30px;
+		border-radius: 5px;
+	}
+
+	.conceitos:after {
+		content: "";
+		width: 500px;
+	}
+
+	.conceitos:after {
+		content: "";
+		width: 652px;
+		height: 33px;
+		display: block;
+		background: url("../img/linhas-grade.png") no-repeat center;
+		position: absolute;
+		top: 275px;
+		right: 155px;
+	}
+
+	.titulo-projeto {
+		margin-top: -195px;
+		text-align: center;
+	}
+
+	.call-projeto {
+		margin-top: 105px;
+		margin-left: 600px;
+		margin-bottom: 70px;
+	}
+
+	.conceitos:after {
+		background: url("../img/linhas-grade-mobile.png") no-repeat center;
+		right: 60px;
+	}
+
+	.depoimentos-quadro {
+		height: 300px;
+		margin-bottom: 40px;
+		border-radius: 5px;
+		padding: 10px;
+		line-height: 20px;
+		margin-bottom: 40px;
+	}
+
+	.doador {
+		margin-left: 150px;
+		padding: 0 0px 50px 0px;
+	}
+
+	.cadastro {
+		margin-left: 150px;
+		padding: 0 0px 30px 0px;
+	}
+
+	.footer-redes img {
+		width: 27px;
+		height: 27px;
+	}
+
+	.copy img {
+		width: 55px;
+		margin-left: 698px;
+		margin-top: -21px;
+	}
+
+}
+
+/* Smartphone */
+@media only screen and (max-width: 767px) {
+
+	.btn-s {
+		color: #fff;
+		background-color: #fbc412;
+	}
+
+	.btn {
+		color: #fff;
+		background-color: #fbc412;
+	}
+
+	.btn-send {
+		width: 300px;
+	}
+
+	.backcolor {
+		color: #fff;
+		background-color: #fbc412;
+	}
+
+
+	.header {
+		position: relative;
+		padding-bottom: 0;
+		background: none;
+	}
+
+	.header img {
+		margin: 0 auto 5px auto;
+	}
+
+	label[for="bt-menu"] {
+		display: flex;
+	}
+
+	#bt-menu:checked~* #escondivel {
+		margin-bottom: 200px;
+	}
+
+
+	.menu {
+		position: fixed;
+		width: 100%;
+		height: auto;
+		left: 0px;
+		bottom: -100px;
+		padding-bottom: 20px;
+		text-align: center;
+		margin-bottom: -100%;
+		transition: all .4s;
+		background-color: #ffffffE6;
+	}
+
+	.menu a:hover {
+		padding: 20px;
+		color: #fff;
+		background-color: #fbc412;
+		font-weight: bold;
+
+	}
+
+	.menu ul li {
+		width: 100%;
+		float: none;
+	}
+
+	.menu ul ul {
+		position: static;
+		overflow: hidden;
+		max-height: 0;
+		transition: all .4s;
+	}
+
+	.logo {
+		width: 250px;
+	}
+
+	.header-menu-redes {
+		display: none;
+	}
+
+	.header-menu-redes ul li {
+		display: block;
+	}
+
+	.header-menu-redes-sobre {
+		display: none;
+		float: right;
+		margin-top: -150px;
+		margin-right: -90px;
+	}
+
+	.header-menu-redes-sobre ul li {
+		display: block;
+	}
+
+	#facebook {
+		padding: 2px;
+		margin-bottom: -25px;
+	}
+
+	#instagram {
+		padding: 2px;
+		margin-bottom: -25px;
+	}
+
+	#twitter {
+		padding: 2px;
+		margin-bottom: -28px;
+	}
+
+	#youtube {
+		width: 40px;
+
+	}
+
+	.header-menu-redes ul li a img {
+		width: 35px;
+		height: 35px;
+	}
+
+	.introducao {
+		width: 100%;
+		height: auto;
+		background-size: cover;
+		margin-top: -220px;
+		text-align: center;
+		padding-top: 540px;
+	}
+
+	.logo {
+		width: 680px;
+		padding-top: 30px;
+	}
+
+	.faixa-azul-intro {
+		width: 100%;
+		height: 140%;
+		background: #12203ad9;
+		padding-bottom: 50px;
+		padding-top: 90px;
+		margin-top: -600px;
+	}
+
+	.faixa-azul-intro h1 {
+		margin-top: 300px;
+
+	}
+
+	.valores {
+		margin: -20px auto 30px auto;
+
+	}
+
+	.valores-lista li {
+		margin-bottom: 20px;
+		border-radius: 5px;
+	}
+
+	.titulo-projeto {
+		margin-top: 10px;
+		font-size: 18px;
+		font-weight: bold;
+	}
+
+	.call {
+		margin-top: 10px;
+
+	}
+
+	.call-projeto {
+		margin-top: 40px;
+		margin-left: 80px;
+		margin-bottom: 50px;
+	}
+
+	.slide-projeto img {
+		display: flex;
+	}
+
+	.conceitos img {
+		margin-bottom: 40px;
+	}
+
+	.conceitos:after {
+		content: "";
+		background: no-repeat center;
+		position: absolute;
+	}
+
+	.conceitos img {
+		display: none;
+	}
+
+	.doador {
+		max-width: fit-content;
+		margin-left: -20px;
+	}
+
+	.cadastro {
+		max-width: fit-content;
+		margin-left: -20px;
+	}
+
+	.parceiros {
+		display: block;
+		background: #12203a;
+		height: 470px;
+		text-align: center;
+		margin-bottom: -40px;
+	}
+
+	.parceiros img {
+		width: 80%;
+		margin-left: 30px;
+	}
+
+	.footer-redes img {
+		width: 27px;
+		height: 27px;
+	}
+
+	.copy img {
+		width: 55px;
+		margin-left: 112px;
+		margin-top: -41px;
+	}
+
+	/*Sobre*/
+
+	.btn-inicio {
+		display: block;
+		margin-bottom: -6px;
+	}
+
+	.introducao-sobre {
+		margin-top: -430px;
+	}
+
+	.faixa-azul-intro-outros h1 {
+		margin-top: -22px;
+	}
+
+	.faixa-azul-intro-outros {
+		background: #12203a;
+	}
+
+	.introducao-sobre {
+		width: 100%;
+		height: 420px;
+		background: url("") no-repeat center;
+	}
+
+	.foto-dir {
+		margin: 5px;
+	}
+
+	.foto-equipe {
+		width: 100%;
+		display: inline-block;
+		text-align: center;
+	}
+
+	.fotos-equipe {
+		width: 50%;
+		float: left;
+		text-align: center;
+	}
+
+	.foto-equipe :nth-child(5n) {
+		display: block;
+		margin-left: 75px;
+	}
+
+	/*projetos*/
+
+	.introducao-projetos {
+		width: 100%;
+		height: 420px;
+		background: url("") no-repeat center;
+	}
+
+	.introducao-projetos {
+		margin-top: -430px;
+	}
+
+	.header-menu-redes-projetos {
+		display: none;
+		float: right;
+		margin-top: -150px;
+		margin-right: -90px;
+	}
+
+	.header-menu-redes-projetos ul li {
+		display: block;
+	}
+
+	.slide-projeto img {
+		object-fit: cover;
+		height: 300px;
+	}
+
+	.slide-projetos img {
+		object-fit: cover;
+		height: 300px;
+	}
+
+	.call-projeto {
+		margin-top: 20px;
+		margin-bottom: 30px;
+	}
+
+	/*participe*/
+
+	.introducao-participe {
+		width: 100%;
+		height: 420px;
+		background: url("") no-repeat center;
+	}
+
+	.introducao-participe {
+		margin-top: -430px;
+	}
+
+	.introducao-participe h1 {
+		margin-top: 0px;
+	}
+
+	.dados-contribuicao {
+		display: block;
+	}
+
+	.doe-tempo {
+		width: 100%;
+		display: block;
+	}
+
+	.doe-tempo p {
+		width: 240px;
+		padding: 0 0 40px 0;
+
+	}
+
+	/*blog*/
+
+
+	.introducao-noticias {
+		width: 100%;
+		height: 420px;
+		background: url("") no-repeat center;
+	}
+
+	.introducao-noticias {
+		margin-top: -430px;
+	}
+
+	.introducao-noticias h1 {
+		text-align: center;
+		margin-left: -19px;
+	}
+
+	/*contato*/
+
+	.introducao-fale {
+		width: 100%;
+		height: 420px;
+		background: url("") no-repeat center;
+	}
+
+	.introducao-fale {
+		margin-top: -430px;
+	}
+
+	.contato-dados {
+		margin-left: 0px;
+	}
+
+	.img-redes-fale {
+		margin-left: 26px;
+	}
+
+	.mapa-mobile {
+		display: block;
+	}
+
+	.mapa-desk {
+		display: none;
+	}
+
+	/*projeto caravana*/
+
+	.projetos-line-1:after {
+		display: none;
+	}
+
+	.quadro-proj {
+		width: 100%;
+		height: 100%;
+		margin: -50px 0 70px 0;
+		text-align: center;
+		display: block;
+	}
+
+	.projetos-inicial img {
+		margin-top: 20px;
+	}
+
+	.slide-projetos-in {
+		margin-top: -40px;
+	}
+
+
+	/*slides*/
+
+	[data-slide] {
+		position: relative;
+	}
+
+	[data-slide]>* {
+		position: absolute;
+		top: 0px;
+		opacity: 0;
+	}
+
+	[data-slide]>.active {
+		position: relative;
+		opacity: 1;
+		transition: opacity 500ms;
+		z-index: 1;
+	}
+
+
+	[data-slide-nav] {
+		display: block;
+		justify-content: center;
+		text-align: center;
+		margin-top: 20px;
+	}
+
+	[data-slide-nav]>button {
+		display: inline-block;
+		width: 12px;
+		margin: 4px;
+		height: 12px;
+		border: none;
+		padding: 0px;
+		border-radius: 6px;
+		background: #12203a;
+		text-indent: -100px;
+		overflow: hidden;
+	}
+
+	[data-slide-nav]>button.active {
+		background: #fbc412;
+	}
+
+	.depoimentos [data-slide-nav]>button {
+		display: inline-block;
+		width: 12px;
+		margin: 4px;
+		height: 12px;
+		border: none;
+		padding: 0px;
+		border-radius: 6px;
+		background: #fff;
+		text-indent: -100px;
+		overflow: hidden;
+		margin-bottom: 30px;
+	}
+
+	.depoimentos [data-slide-nav]>button.active {
+		background: #fbc412;
+	}
+
+
+
+}
